@@ -163,30 +163,16 @@ var wow = new WOW({
 });
 wow.init();
 
-/* ========================================================================= */
-/*	Popup Form
-/* ========================================================================= */
 
-function openForm1() {
-  document.getElementById("myForm1").style.display = "block";
-}
-
-function closeForm1() {
-  document.getElementById("myForm1").style.display = "none";
-}
-
-function openForm2() {
-  document.getElementById("myForm2").style.display = "block";
-}
-
-function closeForm2() {
-  document.getElementById("myForm2").style.display = "none";
-}
-
-function openForm3() {
-  document.getElementById("myForm3").style.display = "block";
-}
-
-function closeForm3() {
-  document.getElementById("myForm3").style.display = "none";
-}
+ /*==============================================================*/
+ /* Comportamiento menu hamburguesa: cerrar al seleccionar opcion*/
+ /*==============================================================*/
+ document.querySelectorAll('.navbar-nav .nav-link').forEach(function(link) {
+    link.addEventListener('click', function() {
+      var navbarCollapse = document.getElementById('navbar01');
+      var bsCollapse = new bootstrap.Collapse(navbarCollapse, {toggle: false});
+      if (navbarCollapse.classList.contains('show')) {
+        bsCollapse.hide();
+      }
+    });
+  });

@@ -1208,9 +1208,9 @@ a:hover {
   Services section
 ==================================================================*/
 
-.services{
+/*.services{
   height: auto;
-}
+}*/
 
 .services .base-tit{
   background-color: #132b4b;
@@ -1232,89 +1232,54 @@ a:hover {
   font-size: 50px;
 }
 .service-block  .impuestos{
-  padding:20px 0px 20px  ;  
+  padding:20px 20px 20px  ;  
 }
 .service-block  .auditoria{
-  padding:8px 0px 8px 0px ;  
+  padding:20px 20px 20px ;  
+}
+.services .btn-primary {
+   border: 1px solid #578baa; 
+   background:transparent;
 }
 
-/* Button used to open the contact form - fixed at the bottom of the page */
-.open-button {
- /* background-color: #555;*/
- background-color:transparent;
-  color: white;
-  padding: 16px 20px;
-  border: none;
+.services .btn-primary :hover{
+   background-color:  #578baa; 
+}
+
+.services .btn-primary .active{
+   background-color:  #578baa; 
+}
+
+
+
+.btn-close {
+
+  background-color: transparent ;/*#132b4b; */
+  
+  font-size: 20px;
+  color: #132b4b;
   cursor: pointer;
-  opacity: 0.8;
-  /*position: fixed;
-  bottom: 23px;*/
-  right: 28px;
-  width: 280px;
+  border: 1px solid #132b4b;
 }
 
-/* The popup form - hidden by default */
-.form-popup {
-  display: none;
- position: fixed;
-  bottom: 0;
-  right: 20px;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
-}
 
-/* Add styles to the form container */
-.form-container {
-  max-width: 300px;
-  max-height: 500px;
-  overflow: auto;
-  border: 1px solid #ccc;
-  padding: 15px;
-  background-image: url(/theme/images/backgrounds/bg-1.jpg);
-}
 
-.form-container form{
-  display: flex;
-  flex-direction: column;
-  gap:10px;
-  position:relative;
-}
-/* Full-width input fields */
-.form-container ul li{
-  list-style-type: circle;
+.modal-body ul li{
+   list-style-type: circle;
   text-align: left;
   color:#132b4b;
   font-family: "Quattrocento Sans", sans-serif;
   font-weight: 600;
-  
+  padding-bottom: 15px;
 }
+.modal-header{
+   background-color:  #578baa;
+}
+.modal-body{
+   background-image: url(../images/backgrounds/bg-1.jpg);
 
-.cerrarx {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #132b4b;
-  border:1px solid #ccc;
-  padding:10px;
-  font-size: 24px;
-  color: #ccc;
-  cursor: pointer;
+   padding-left:50px;
 }
-
-.cerrarx:hoover {
-  color: #000;
-}
-/* Add a background color to the cancel button */
-.form-container .cerrar {
-  background-color: #132b4b;
-  margin-top:50px;
-}
-
-/* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
-  opacity: 0.5;
-}
-
 
 /*=================================================================
   Our skills
