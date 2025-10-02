@@ -763,6 +763,11 @@ a:hover {
 /*=================================================================
   About us section
 ==================================================================*/
+.about{
+    min-height: 100vh;
+    height:auto;
+ 
+}
 .about .block {
  background: #132b4b;
   padding: 30px;
@@ -771,7 +776,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-
+/*
 
 .about .block:hover {
   border-bottom: 2px solid #578baa;
@@ -816,7 +821,7 @@ a:hover {
 .about .block .icon-box h3 {
   color: #afbac4;
 }
-
+*/
 .about .base-tit{
   background-color: #132b4b;
   padding:20px;
@@ -826,6 +831,7 @@ a:hover {
   color:#132b4b;
   font-size: 20px;
   font-weight: 500;
+  height:auto;
  
 }
 
@@ -850,7 +856,7 @@ a:hover {
 ==================================================================*/
 .about-2  {
   padding: 35px 40px;
-  
+ 
    }
 .tit-1 {
   padding-top: 30px; 
@@ -950,8 +956,9 @@ a:hover {
 }
 
 .contact-us {
- /* padding-top: 50px;*/
+
  height:auto;
+min-height: 100vh;
 }
 
 .contact-us .contacto{
@@ -1117,31 +1124,6 @@ a:hover {
   background-color: #132b4b;
   padding:20px;
 }
-.portfolio-filter {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.portfolio-filter button {
-  border: none;
-  outline: none;
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  background: transparent;
-  display: inline-block;
-  font-size: 16px;
-  padding: 6px 20px;
-  font-weight: 700;
-  color: #737f8a;
-  transition: 0.3s all;
-}
-.portfolio-filter button.active {
-  border: 1px solid #578baa;
-  /*color: #57cbcc;*/
-  color:#578baa;
-}
-
-.portfolio-items-wrapper .mix {
-  padding: 5px;
-}
 
 .portfolio-block {
   position: relative;
@@ -1208,14 +1190,19 @@ a:hover {
   Services section
 ==================================================================*/
 
-/*.services{
-  height: auto;
-}*/
+.services{
+  min-height: 100vh;
+  height:auto;
+  display: flex;
+  justify-content: center; /* opcional, para centrar contenido */
+  align-items: center;   
+}
 
 .services .base-tit{
   background-color: #132b4b;
   padding:20px;
 }
+
 .services article{
   margin-top:60px;
   padding-top:20px;
@@ -1310,7 +1297,7 @@ a:hover {
   Our Team
 ==================================================================*/
 .our-team {
- /* padding-top: 50px;*/
+  padding-top: 50px;
  height:auto;
 }
 
@@ -1321,7 +1308,7 @@ a:hover {
 
 .team-member {
   background-color: #132b4b;/*#292F36;*/
-  margin: 15px 0;
+  margin: 30px 0;
 }
 .team-member:hover .mask {
   cursor: pointer;
@@ -1350,7 +1337,7 @@ a:hover {
     display: inline-block;
   }
 }
-.member-photo .mask {
+.member-photo .mask  {
   background-color: rgba(87, 167, 204, 0.7);
   position: absolute;
   text-align: center;
@@ -1366,20 +1353,21 @@ a:hover {
 .member-photo .mask ul {
   text-align: center;
   position: relative;
-  top: 225px;
+  top:125px;
 }
-.member-photo .mask ul li  {
+
+
+.member-photo .mask ul li {
  /* border: 1px solid #fff;*/
   color: #fff;
   display: block;
-  font-size: 18px;
-  height: 50px;
-  line-height: 50px;
+  font-size: 15px;
+ /* height: 40px;*/
+  line-height: 30px;
   text-align: center;
-  
 }
 .member-photo .mask ul li:hover {
-  background-color: #fff;
+  background-color: whitesmoke;
   color: #578baa;
   border: 1px solid transparent;
 }
@@ -1508,7 +1496,14 @@ a:hover {
 #our-clients .item {
   margin: 10px;
 }
-
+/*======================
+Fusiones
+========================*/
+.fusiones{
+    min-height: 100vh;
+    height:auto;
+ 
+}
 
 /*=================================================================
   Footer section
