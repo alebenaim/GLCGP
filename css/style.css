@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: #353b43;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
   position: relative;
@@ -1088,7 +1088,7 @@ a:hover {
 .member-photo .mask ul {
   text-align: center;
   position: relative;
-  top:125px;
+  top:50px;
 }
 
 
@@ -1113,11 +1113,21 @@ a:hover {
 .member-meta h4 {
   margin: 0 0 5px;
 }
-.member-meta span {
+.member-meta li {
+  color:  #fff ;
   font-size: 15px;
 }
-
-
+@media (max-width: 768px) {
+ 
+  .member-meta {
+ 
+    height:120px;
+  }
+  .member-meta li {
+  
+  font-size: 13px;
+}
+}
 /*=================================================================
   Services section
 ==================================================================*/
