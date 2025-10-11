@@ -1066,17 +1066,7 @@ a:hover {
   transition: all 0.4s ease 0s;
 }
 @media (max-width: 768px) {
-  .equipo {
-    display:flex;
- justify-content: center;
-  }
  
-   .team-member {
-    width:40%;
-    padding:20px;
-    margin-left:20px;
-    
-   }
   .member-photo img {
     display: inline-block;
    
