@@ -1229,67 +1229,80 @@ a:hover {
   display:flex;
   flex-wrap:wrap;
   height: auto;
+  
 }
-.portfolio-block {
-  position: relative;
-  margin: 30px 0px;
+.btn-industria {
+  background-image: url('../images/portfolio/Industria.jpg');
+  
 }
-.portfolio-block:before {
-  transition: all 0.3s ease-in-out;
-  background: rgb(255, 255, 255);
-  opacity: 0;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-  position: absolute;
-  content: "";
+.btn-servicios {
+  background-image: url('../images/portfolio/Servicios.jpg');
+  
 }
-.portfolio-block img {
-  width: 100%;
-  height: auto;
+.btn-real {
+  background-image: url('../images/portfolio/Real\ estate.jpg');
+  
 }
-.portfolio-block:hover:before {
-  opacity: 1;
+.btn-agro {
+  background-image: url('../images/portfolio/Agro.jpg');
+  
 }
-.portfolio-block:hover .caption h4 {
-  top: 45%;
+.btn-comercio {
+  background-image: url('../images/portfolio/Comercio.jpeg');
+  
 }
-.portfolio-block:hover .caption {
-  opacity: 1;
-  top: 50%;
+.btn-investiga {
+  background-image: url('../images/portfolio/Investigacion.jpg');
+  
 }
-.portfolio-block .caption {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  z-index: 9;
-  transition: all 0.2s ease-in-out;
+.btn-logistica {
+  background-image: url('../images/portfolio/Logistica.png');
+  
+}
+
+.btn-comercio {
+  background-image: url('../images/portfolio/Comercio.jpeg');
+  
+}
+.btn-camaras {
+  background-image: url('../images/portfolio/Camaras.png');
+  
+}
+
+.texto-sobre-fondo{
+  background-color:  #132b4b;
+  color: white;
+  width:200px;
+  padding:5px;
+}
+
+.btn-cliente {
+   background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  align-items: flex-end; /* para que el texto quede en la parte inferior */
+  justify-content: center; /* centrar el texto horizontalmente */
+  color: white; /* si quieres que el texto sea visible */
+  font-weight: bold;
+  border: none; /* quitar borde si quieres */
   text-align: center;
-  width: 80%;
+  margin-bottom: 40px;;
 }
-.portfolio-block .caption h4 {
-  font-size: 16px;
-  font-weight: 600;
+
+
+.btn-cliente :hover:before {
+  opacity: 1;
 }
-.portfolio-block .caption h4 a {
-  color: #555;
+
+.btn-cliente :hover  {
+  
+  background-color:  #578baa;
+  color: #132b4b;
 }
-.portfolio-block .caption .search-icon {
-  background: #578baa;
-  width: 45px;
-  height: 45px;
-  color: #fff;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-.portfolio-block .caption .search-icon i {
-  line-height: 45px;
-}
+
+
+
 
 /*=================================================================
   Our skills
