@@ -1302,7 +1302,36 @@ a:hover {
 }
 
 
-
+.portfolio-block .caption {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  width: 80%;
+}
+.portfolio-block .caption h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.portfolio-block .caption h4 a {
+  color: #555;
+}
+.portfolio-block .caption .search-icon {
+  background: #578baa;
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.portfolio-block .caption .search-icon i {
+  line-height: 45px;
+}
 
 /*=================================================================
   Our skills
