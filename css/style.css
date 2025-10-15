@@ -1332,7 +1332,47 @@ a:hover {
 .portfolio-block .caption .search-icon i {
   line-height: 45px;
 }
+/*fondos de modales de clientes*/
+.clientes .modal-indu {
+  background-image: url('../images/portfolio/Clientes-Industria.png');
+background-size: cover;
+}
 
+.clientes .modal-servi {
+  background-image: url('../images/portfolio/Clientes-servicios.png');
+background-size: cover;
+}
+
+.clientes .modal-real {
+  background-image: url('../images/portfolio/Clientes-real-estate.png');
+background-size: cover;
+}
+
+.clientes .modal-agro {
+  background-image: url('../images/portfolio/Clientes-agro.png');
+  background-size: cover;
+}
+
+.clientes .modal-inve {
+  background-image: url('../images/portfolio/Clientes-investigacion.png');
+background-size: cover;
+}
+
+.clientes .modal-logi {
+  background-image: url('../images/portfolio/Clientes-logistica.png');
+background-size: cover;
+}
+
+.clientes .modal-camara {
+  background-image: url('../images/portfolio/Clientes-camaras.png');
+background-size: cover;
+}
+
+.clientes .modal-comer {
+  background-image: url('../images/portfolio/Clientes-comercio.png');
+background-size: cover;
+background-position: center;
+}
 /*=================================================================
   Our skills
 ==================================================================*/
