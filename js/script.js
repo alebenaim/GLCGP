@@ -121,7 +121,7 @@
 		dots: true,
 		dotsClass: 'my-custom-dots', // Specify your custom class
 		autoplay: true,
-		autoplaySpeed: 4000
+		autoplaySpeed: 3000
 	});
 
 

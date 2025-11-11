@@ -951,7 +951,7 @@ a:hover {
 
 
 .client-info {
-  margin: 0 auto;
+  margin: 10 auto;
   width: 55%;
   padding-top:20px;
 }
@@ -1158,7 +1158,11 @@ a:hover {
 }
 @media (max-width: 768px) {
  .member-photo .mask ul {
-  top:120px;
+  top:20px;
+
+}
+.member-photo .mask ul li {
+  font-size: 10px;
 }
   .member-meta {
  
