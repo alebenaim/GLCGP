@@ -915,18 +915,45 @@ a:hover {
   padding:100px;
 }
 
+/*estilo de puntos debajo del slider*/
+.my-custom-dots {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  text-align: center;
+}
+
+.my-custom-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.my-custom-dots li button {
+  background-color: #ccc;
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0; /* Hide default button text */
+}
+
+.my-custom-dots li.slick-active button {
+  background-color: #578baa; /* Style for the active dot */
+}
+
+
 @media (max-width: 768px) {
  .testimonial .porque {
     padding:10px;
   }
 }
 
-.testimonial .separa {
-  margin-top: 50px;
-}
+
 .client-info {
   margin: 0 auto;
   width: 55%;
+  padding-top:20px;
 }
 @media (max-width: 992px) {
   .client-info {
@@ -942,17 +969,23 @@ a:hover {
 .client-comment p {
   color: #d1d5da;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .client-thumb img {
   border-radius: 50%;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
   max-width: 300px;
   width: 100%;
   height: auto;
 }
 
+.client-info{
+  
+  width:100%;
+}
 .client-meta {
   margin: 0 0 10px;
 }
@@ -1038,6 +1071,10 @@ a:hover {
   padding:20px;
 }
 
+.equipo{
+  justify-content: space-evenly;
+  margin:0;
+}
 .team-member {
   background-color: #132b4b;/*#292F36;*/
   margin: 30px 0;
@@ -1088,7 +1125,7 @@ a:hover {
 .member-photo .mask ul {
   text-align: center;
   position: relative;
-  top:50px;
+  top:180px;
 }
 
 
@@ -1111,17 +1148,21 @@ a:hover {
   padding: 15px;
 }
 .member-meta h4 {
-  margin: 0 0 5px;
-}
-.member-meta li {
+  margin: 5px 0 5px;
   color:  #fff ;
+}
+.member-meta p {
+  
   font-size: 15px;
+  
 }
 @media (max-width: 768px) {
- 
+ .member-photo .mask ul {
+  top:120px;
+}
   .member-meta {
  
-    height:150px;
+    height:100px;
   }
   .member-meta li {
   

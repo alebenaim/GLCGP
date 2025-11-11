@@ -118,6 +118,8 @@
 	$('#testimonials').slick({
 		infinite: true,
 		arrows: false,
+		dots: true,
+		dotsClass: 'my-custom-dots', // Specify your custom class
 		autoplay: true,
 		autoplaySpeed: 4000
 	});
