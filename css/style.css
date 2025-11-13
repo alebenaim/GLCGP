@@ -1483,10 +1483,57 @@ Fusiones section
 .fusiones .tit-fusiones{
   padding:20px;
 }
-.fusiones #carouselFusiones{
-  padding-top:40px;
+
+.fusiones article{
+  margin-top:30px;
+  padding-top:20px;
+}
+.fusiones-block {
+  padding: 30px 20px;
+  border-left: 3px solid rgba(236, 239, 241, 0.07);
+  border-top: 3px solid rgba(236, 239, 241, 0.07);
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
 }
 
+.fusiones-block .fusiones-icon {
+  margin-bottom: 40px;
+  height: 80px;
+  border-radius: 10%;
+
+}
+
+.fusiones-block .fusiones-tit {
+  height: 100px;
+}
+.fusiones h3{
+  padding:10px;
+  font-size: 1.2rem;
+}
+.fusiones .btn-primary {
+   border: 1px solid #578baa; 
+   background:transparent;
+}
+
+.fusiones .btn-primary :hover{
+   background-color:  #578baa; 
+}
+
+.fusiones .btn-primary .active{
+   background-color:  #578baa; 
+}
+
+.modal-fusion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.modal-fusion img{
+  width:95%;
+  
+}
 /*=================================================================
  Contact us section
 ==================================================================*/
