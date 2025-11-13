@@ -962,27 +962,24 @@ padding:10px;
 }
 
 
-@media (max-width: 768px) {
- .testimonial .porque {
-    padding:10px;
-  }
-}
+
 
 
 .client-info {
-  margin: 10 auto;
-  width: 55%;
-  padding-top:20px;
+  margin: 10px auto;
+  width: 100%;
+  padding-top:30px;
 }
-@media (max-width: 992px) {
-  .client-info {
-    width: 75%;
-  }
+
+.client-meta {
+  margin: 0 0 10px;
 }
-@media (max-width: 768px) {
-  .client-info {
-    width: 90%;
-  }
+.client-meta h3 {
+  margin: 15px 0 5px 0;
+  color:#578baa;
+}
+.client-meta span {
+  font-size: 12px;
 }
 
 .client-comment p {
@@ -1001,20 +998,24 @@ padding:10px;
   height: auto;
 }
 
-.client-info{
-  
-  width:100%;
+@media (max-width: 992px) {
+  .client-info {
+    width: 75%;
+  }
 }
-.client-meta {
-  margin: 0 0 10px;
+@media (max-width: 768px) {
+  .client-info {
+    width: 90%;
+  }
 }
-.client-meta h3 {
-  margin: 15px 0 5px 0;
-  color:#578baa;
+
+@media (max-width: 768px) {
+ .testimonial .porque {
+    padding:10px;
+  }
 }
-.client-meta span {
-  font-size: 12px;
-}
+
+
 
 .owl-pagination,
 .owl-buttons {
@@ -1173,7 +1174,7 @@ padding:10px;
 }
 .member-meta p {
   
-  font-size: 12px;
+  font-size: 18px;
   
 }
 @media (max-width: 768px) {
@@ -1186,12 +1187,12 @@ padding:10px;
 }
   .member-meta {
  
-    height:100px;
+    height:120px;
   }
 .member-meta h4 {
   font-size: 1.2rem;
 }
-  .member-meta li {
+  .member-meta p {
   
   font-size: 13px;
 }
@@ -1509,12 +1510,14 @@ min-height: 100vh;
 }
 .contact-form .form-control {
   background-color: transparent;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 3px solid rgba(236, 239, 241, 0.07);
   height: 45px;
+  color:whitesmoke;
 }
 .contact-form textarea.form-control {
   padding: 10px;
   height: 120px;
+  color:whitesmoke;
  /* background-color: whitesmoke;
   color:#132b4b;*/
 }
@@ -1527,12 +1530,14 @@ min-height: 100vh;
 }
 
 #contact-submit {
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 5px solid rgba(236, 239, 241, 0.07);
  /* background: #57cbcc;*/
   background-color:#578baa;
+  color:#132b4b;
   padding: 12px 0;
-  width: 100%;
-  margin: 0;
+  width: 60%;
+  margin: 20%;
+  margin-top:0;
 }
 
 .google-map #map_canvas {
