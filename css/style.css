@@ -301,25 +301,22 @@ a:hover {
 .section {
  min-height: 100vh;
  
-  padding: 100px 0;
-  /*scroll-margin-top:100px;*/
+ padding: 100px 0;
+ /* scroll-margin-top:100px;*/
    
 }
+
 /*
-@media (max-width: 480px) {
-  .section {
-    padding: 50px 0;
-  }
-}
 @media (max-width: 768px) {
   .section {
-    padding: 50px 0;
-  }
-}*/
-
+   scroll-margin-top:170px;
+}
+}
+*/
 .section-sm {
  /* padding: 70px 0;*/
    min-height: 100vh;
+ 
   
    
 }
@@ -327,6 +324,7 @@ a:hover {
 .section-xs {
   /*padding: 50px 0;*/
    min-height: auto; /*100vh;*/
+  
  
    
 }
@@ -579,11 +577,12 @@ a:hover {
    /* background-color:rgb(212, 219, 230);#578baa ; #132b4b;*/
   width: 100%;
  
+ 
   z-index: 99;
   margin-bottom: 0;
  /* padding: 10px 0;
   position: -webkit-sticky;*/
-  position: sticky;
+  position: fixed;
   top: 0;
   
 }
@@ -797,11 +796,12 @@ a:hover {
   About us 2 section
 ==================================================================*/
 .about-2  {
+  
   padding: 35px 40px;
- 
+
    }
 .tit-1 {
-  padding-top: 80px; 
+  padding-top: 180px; 
   
 }
 .tit-2{
@@ -840,7 +840,7 @@ a:hover {
     font-size:30px;
   }
    .about-2  .tit-1{
-    padding:10px;
+    padding:100px 0px 20px 0px;
   }
    .about-2  h3{
     font-size:20px;
@@ -1525,15 +1525,15 @@ Fusiones section
 }
 
 .modal-fusion{
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
- 
+ */
+ padding:0;
 }
 
 .modal-fusion img{
-  width:95%;
-  
+  width:100%;  
 }
 /*=================================================================
  Contact us section
