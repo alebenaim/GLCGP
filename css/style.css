@@ -824,6 +824,7 @@ a:hover {
  /* background-color: #2e486b63;*/
 }
 
+
 @media (max-width: 768px) {
   .about-2 .content-block {
     padding: 0;
@@ -834,12 +835,14 @@ a:hover {
   .about-2  h1{
     font-size:30px;
   }
+ 
    .about-2  .tit-1{
     padding:100px 0px 20px 0px;
   }
    .about-2  h3{
     font-size:20px;
   }
+
    .about-2  .tit-2{
     padding:20px;
   }
@@ -850,6 +853,7 @@ a:hover {
  
  
   }
+
   }
 
 .about-2 .content-block .media {
