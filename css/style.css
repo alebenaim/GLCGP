@@ -692,7 +692,7 @@ a:hover {
 .bg-portada {
   /*background-image: url("../images/backgrounds/Portada.png");*/
   background-image: url("../images/backgrounds/escritorio.jpg");
-   background-image: url("../images/backgrounds/Nodos.png");
+   background-image: url("../images/backgrounds/Nodos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
@@ -1328,7 +1328,7 @@ padding:10px;
   
 }
 .btn-logistica {
-  background-image: url('../images/portfolio/Logistica.png');
+  background-image: url('../images/portfolio/Logistica.jpg');
   
 }
 
@@ -1337,7 +1337,7 @@ padding:10px;
   
 }
 .btn-camaras {
-  background-image: url('../images/portfolio/Camaras.png');
+  background-image: url('../images/portfolio/Camaras.jpg');
   
 }
 
@@ -1406,42 +1406,42 @@ padding:10px;
 }
 /*fondos de modales de clientes*/
 .clientes .modal-indu {
-  background-image: url('../images/portfolio/Clientes-Industria.png');
+  background-image: url('../images/portfolio/Clientes-Industria.jpg');
 background-size: cover;
 }
 
 .clientes .modal-servi {
-  background-image: url('../images/portfolio/Clientes-servicios.png');
+  background-image: url('../images/portfolio/Clientes-servicios.jpg');
 background-size: cover;
 }
 
 .clientes .modal-real {
-  background-image: url('../images/portfolio/Clientes-real-estate.png');
+  background-image: url('../images/portfolio/Clientes-real-estate.jpg');
 background-size: cover;
 }
 
 .clientes .modal-agro {
-  background-image: url('../images/portfolio/Clientes-agro.png');
+  background-image: url('../images/portfolio/Clientes-agro.jpg');
   background-size: cover;
 }
 
 .clientes .modal-inve {
-  background-image: url('../images/portfolio/Clientes-investigacion.png');
+  background-image: url('../images/portfolio/Clientes-investigacion.jpg');
 background-size: cover;
 }
 
 .clientes .modal-logi {
-  background-image: url('../images/portfolio/Clientes-logistica.png');
+  background-image: url('../images/portfolio/Clientes-logistica.jpg');
 background-size: cover;
 }
 
 .clientes .modal-camara {
-  background-image: url('../images/portfolio/Clientes-camaras.png');
+  background-image: url('../images/portfolio/Clientes-camaras.jpg');
 background-size: cover;
 }
 
 .clientes .modal-comer {
-  background-image: url('../images/portfolio/Clientes-comercio.png');
+  background-image: url('../images/portfolio/Clientes-comercio.jpg');
 background-size: cover;
 background-position: center;
 }
