@@ -664,7 +664,7 @@ a:hover {
 }
 }
 .bg-1 {
- background-image: url("../images/backgrounds/bg-1.jpg");
+ /*background-image: url("../images/backgrounds/bg-1.jpg");*/
   
   background-repeat:repeat;
   background-size: cover;
@@ -691,7 +691,7 @@ a:hover {
 
 .bg-portada {
   /*background-image: url("../images/backgrounds/Portada.png");*/
-  background-image: url("../images/backgrounds/escritorio.jpg");
+ /* background-image: url("../images/backgrounds/escritorio.jpg");*/
    background-image: url("../images/backgrounds/Nodos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
