@@ -67,52 +67,14 @@
 	});
 
 
-	//   magnific popup video
-	$('.popup-video').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		mainClass: 'mfp-zoom-in',
-		removalDelay: 160,
-		preloader: false,
-		fixedContentPos: true
-	});
-
-	
-
-
-	/* ========================================================================= */
-	/*	Testimonial Carousel
-	/* =========================================================================  */
-	//Init the carousel
-	$('#testimonials').slick({
-		infinite: true,
-		arrows: false,
-		dots: true,
-		dotsClass: 'my-custom-dots', // Specify your custom class
-		autoplay: true,
-		autoplaySpeed: 2500, // Reducido a 2.5 segundos para que cambie más seguido
-		speed: 400,          // Velocidad de la animación de transición (en milisegundos). Más bajo = más rápido el cambio.
-		waitForAnimate: false // Permite que el usuario interactúe sin esperar a que termine la animación interna
-	});
-
-
-/* ========================================================================= */
-	/*	CounterUp (Optimizado con control de ejecución)
-	/* ========================================================================= */
-	var counterExecuted = false; // Bandera para que la animación se ejecute SOLO UNA VEZ
-
+	// counterUp
 	function counter() {
-		if (counterExecuted) return; // Si ya se ejecutó, no hace nada más
-
-		var $counterEl = $('.jsCounter');
-		if ($counterEl.length === 0) return;
-
-		var oTop = $counterEl.offset().top - window.innerHeight;
-		
+		var oTop;
+		if ($('.jsCounter').length !== 0) {
+			oTop = $('.jsCounter').offset().top - window.innerHeight;
+		}
 		if ($(window).scrollTop() > oTop) {
-			counterExecuted = true; // Marcamos como ejecutado inmediatamente
-			
-			$counterEl.each(function () {
+			$('.jsCounter').each(function () {
 				var $this = $(this),
 					countTo = $this.attr('data-count');
 				$({
@@ -120,7 +82,7 @@
 				}).animate({
 					countNum: countTo
 				}, {
-					duration: 1500, // Un poco más lento hace que se vea más profesional el contador
+					duration: 500,
 					easing: 'swing',
 					step: function () {
 						$this.text(Math.floor(this.countNum));
@@ -133,15 +95,33 @@
 		}
 	}
 
-	// Throttle simple para el scroll: ejecuta la función máximo cada 100ms, no infinitamente
-	var scrollTimeout;
 	$(window).on('scroll', function () {
-		if (!scrollTimeout) {
-			scrollTimeout = setTimeout(function () {
-				counter();
-				scrollTimeout = null;
-			}, 100);
-		}
+		counter();
+	});
+
+
+
+	//   magnific popup video
+	$('.popup-video').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-zoom-in',
+		removalDelay: 160,
+		preloader: false,
+		fixedContentPos: true
+	});
+
+	/* ========================================================================= */
+	/*	Testimonial Carousel
+	/* =========================================================================  */
+	//Init the carousel
+	$('#testimonials').slick({
+		infinite: true,
+		arrows: false,
+		dots: true,
+		dotsClass: 'my-custom-dots', // Specify your custom class
+		autoplay: true,
+		autoplaySpeed: 3000
 	});
 
 
@@ -156,7 +136,7 @@
 				e.preventDefault();
 				$('html, body').animate({
 					scrollTop: target.offset().top
-				}, 800, function () {
+				}, 1000, function () {
 					var $target = $(target);
 					$target.focus();
 					if ($target.is(':focus')) {
@@ -180,7 +160,7 @@
 /* ========================================================================= */
 
 var wow = new WOW({
-	offset: 80, // distance to the element when triggering the animation (default is 0)
+	offset: 100, // distance to the element when triggering the animation (default is 0)
 	mobile: false // trigger animations on mobile devices (default is true)
 });
 wow.init();
