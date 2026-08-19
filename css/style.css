@@ -1162,6 +1162,9 @@ padding:10px;
   color: #578baa;
   border: 1px solid transparent;
 }
+.member-photo .mask ul  .list-item1 {
+  font-size: 12px;
+}
 
 .member-meta {
   padding: 15px;
@@ -1176,6 +1179,7 @@ padding:10px;
   font-size: 18px;
   
 }
+
 @media (max-width: 768px) {
  .member-photo .mask ul {
   top:20px;
@@ -1183,6 +1187,9 @@ padding:10px;
 }
 .member-photo .mask ul li {
   font-size: 10px;
+}
+.member-photo .mask ul  .list-item1 {
+  font-size: 8px;
 }
   .member-meta {
  
@@ -1195,6 +1202,7 @@ padding:10px;
   
   font-size: 13px;
 }
+
 }
 /*=================================================================
   Servicios section
