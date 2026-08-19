@@ -1598,7 +1598,7 @@ min-height: 100vh;
 @media (max-width: 768px) {
  
 .contact-details p {
-  font-size: 14px;
+  font-size: 12px;
 }
 }
 .error {
